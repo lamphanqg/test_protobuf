@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ruby:
+    build: .
+    volumes:
+      - .:/test_protobuf
+    working_dir: /test_protobuf
